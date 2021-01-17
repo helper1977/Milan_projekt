@@ -1,0 +1,456 @@
+p {
+    font-family: Quicksand;
+    font-size: 14;
+    color: #6d5f5e;
+}
+a:hover, a:visited, a:link, a:active
+{
+    color: #6d5f5e;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 28;
+    letter-spacing: 1px;
+    color: #46403f;
+}
+
+h2 {
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 22;
+    letter-spacing: 1px;
+    color: #46403f;
+}
+
+h3 {
+    font-family: Quicksand;
+    font-size: 14;
+    font-weight: unset;
+    letter-spacing: 1px;
+    color: #554e4d;
+}
+
+h4 {
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 18;
+    letter-spacing: 3px;
+    color: #46403f;
+}
+
+.nav-main {
+    width: 80%;
+    
+    height: 125px;
+
+
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    margin:0em auto;
+    
+    
+    border-bottom: 1px solid #efefef;
+    vertical-align: middle;
+}
+
+.nav-item {
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:25%;
+    align-items: center;
+    margin: 1rem 0;
+    
+}
+
+.nav-item p{
+    width: 100%;
+    border-left: 1.5px solid #efefef;
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 16;
+    letter-spacing: 1pt;
+}
+
+.nav-item img:hover{
+    width: 110px;
+    height: 110px;
+}
+
+.nav-item p:hover{
+   
+    font-size: 17.5;
+}
+
+.nav-item-odjava {
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:25%;
+    align-items: center;
+    margin: 1rem 0;
+    
+}
+
+.nav-item-odjava p:hover{
+   
+    font-size: 17.5;
+}
+
+
+.nav-item-odjava p{
+    width: 100%;
+    border-left: 1.5px solid #e36c5b;;
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 16;
+    letter-spacing: 1pt;
+    
+}
+
+.prijava-form {
+   
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.prijava-form form{
+    text-align: center;
+}
+
+.prijava-form h1{
+    text-align: center;
+}
+
+.prijava-form p{
+    margin:0;
+}
+
+input {
+    font-family: Quicksand;
+    text-align: center;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=checkbox], select {
+    font-family: Quicksand; 
+    width: 100%;
+    padding: 12px 20px;
+    text-align: right;
+    
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    
+    
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+  }
+
+  input[type=submit] {
+    width: 80%;
+    background-color: #6d5f5e;
+    color: white;
+    padding: 14px 20px;
+    margin: 2em 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #887877;
+  }
+
+::placeholder {
+    color:#b3b3b3
+  }
+
+  .home-main {
+      width:80%;
+      margin:0 auto;
+  }
+
+  .home-main-iskanje{
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      
+  }
+
+  .home-main-iskanje-item1{
+      text-align: center;
+      
+      width:35%;
+      margin:0;
+      padding:0;
+  }
+  .home-main-iskanje-item2{
+    text-align: center;
+   
+    width:10%;
+    margin:0 2rem;
+    padding:0;
+}
+
+.home-main-page{
+    display:flex;
+    margin:1rem 0;
+}
+
+.home-main-page-filtri{
+    width:15%;
+    border-left: 2px solid #efefef;
+    padding:0 1.5rem;
+}
+
+.home-main-page-filtri p{
+    border-left: 2px solid #e36c5b;
+    padding: 0 1rem;
+}
+
+.inputCheck{
+    
+    display:flex;
+    align-items: center;
+    
+
+}
+
+.inputCheck p{
+    
+    width:90%;
+}
+
+.inputCheck input[type=checkbox]{
+    width: 10%;
+}
+
+
+
+
+
+
+.home-main-page-izdelki{
+    margin-left: 2rem;
+    width:80%;
+    text-align: center;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.home-main-page-izdelki-posamezni{
+    
+    border-left:1px solid #efefef;
+    border-right:1px solid #efefef;
+    border-bottom:1px solid #efefef;
+    width: 33%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    
+}
+
+.home-main-page-izdelki-posamezni:hover{
+
+background-color: #efefef;
+
+}
+
+.home-main-page-izdelki-posamezni img{
+    
+    margin-top: 2rem;
+    
+}
+
+.home-main-page-izdelki-posamezni h3{
+    width:200px;
+    border-left: 2px solid #e36c5b;
+    text-align: center;
+    padding: 0;
+    font-size: 18;
+    
+}
+
+/* =========== PRIJAVA ============ */
+
+.prijava-submit{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prijava-submit input[type=submit]{
+    margin:1rem 1rem;
+}
+
+.register-column{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-column-vmesni{
+    margin:0 1rem;
+}
+
+
+/* ====== IZDELEK ======== */
+
+.izdelek{
+   
+    display:flex;
+    justify-content: center;
+    width:80%;
+    margin:2rem auto;
+    align-items: center;
+    
+}
+.izdelek-slika{
+    
+    text-align: center;
+    margin:2rem 0;
+    width:60%;
+    height: 100%;
+}
+.izdelek-podatki{
+    border-left: 2px solid #e36c5b;
+    padding-left: 2rem;
+    width:40%;
+}
+
+.izdelek-podatki select{
+    width: 20%;
+}
+
+.kontakt{
+    
+    margin:0 auto;
+    text-align: center;
+    border-bottom: 1px solid #efefef;
+    width:80%;
+}
+
+.kontakt p{
+    border-left:2px solid #e36c5b;  
+    width:350px;
+    text-align: center;
+    margin: 1rem auto;
+    padding:0;
+}
+
+
+/* ======================== FOOTER =============== */
+.footer{
+    
+    margin:1rem 0;
+}
+.footer p{
+    
+    color: #dbdbdb;
+    text-align: center;
+}
+
+
+/* ======== NAROCILA =========== */
+
+.vsa-narocila{
+    width: 90%;
+    display: flex;
+}
+
+.narocila-filtri{
+    width:30%;
+   
+}
+
+.tabela{
+    width:50%;
+}
+
+.tabela-narocil{
+    margin:2rem auto;
+    text-align: center;
+}
+
+.tabela-narocil th{
+
+    
+
+    padding: 0rem 2.5rem;
+    font-family: Quicksand;
+    font-size: 18;
+    color: #6d5f5e;
+    border-bottom: 1px solid #efefef;
+}
+
+
+.tabela-narocil td, tr{
+    padding: 1rem 2.5rem;
+    font-family: Quicksand;
+    font-size: 14;
+    color: #6d5f5e;
+    border-bottom: 1px solid #efefef;
+}
+
+.tabela-link a{
+color: #e36c5b;
+}
+
+.tabela-link-brez a{
+    color: #e36c5b;
+    }
+    
+
+.tabela-link a:hover{
+    font-size: 15;
+    }
+
+    .tabela-link-brez a:hover{
+        color: #c2503f;
+        }
+
+.tabela-narocil tr:hover {
+    background-color: #efefef;
+}
+
+.uporabnik-podatki{
+    border-left: 2px solid #e36c5b;
+    padding-left: 2rem;
+    margin:2rem auto;
+}
+
+.uporabnik{
+   
+    display:flex;
+    justify-content: center;
+    width:80%;
+    margin:2rem auto;
+    align-items: center;
+    
+}
