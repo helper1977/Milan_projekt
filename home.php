@@ -133,7 +133,7 @@ if (isset($_SESSION['logiran']) && $_SESSION['logiran'] == true) {
 $dbhost = 'localhost';
 $user ='root';
 $pass ='';
-$db ='spletna_trgovina'; // databasename
+$db ='trgovina'; // databasename
 $conn=mysqli_connect("$dbhost","$user","$pass","$db");
 
 $sql = "SELECT * FROM artikli";

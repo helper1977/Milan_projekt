@@ -37,7 +37,7 @@ $up_ime = $_GET['uporabnik'];
 $dbhost = 'localhost';
 $user ='root';
 $pass ='';
-$db ='spletna_trgovina'; // databasename
+$db ='trgovina'; // databasename
 $conn=mysqli_connect("$dbhost","$user","$pass","$db");
 
 $sql = "SELECT * FROM uporabniki WHERE up_ime='$up_ime'";

@@ -48,7 +48,7 @@ if (isset($_COOKIE['login'])) {
  $dbhost = 'localhost';
 $user ='root';
 $pass ='';
-$db ='spletna_trgovina'; // databasename
+$db ='trgovina'; // databasename
 $conn=mysqli_connect("$dbhost","$user","$pass","$db");
 
 $sql = "SELECT * FROM narocila WHERE uporabnik='$up_ime' ORDER BY datum DESC LIMIT 10";
